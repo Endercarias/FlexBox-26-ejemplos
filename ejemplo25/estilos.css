@@ -1,0 +1,7 @@
+.contenedor{
+    display:flex;
+    
+    }
+    .elemento:nth-child(even){
+    order:1;
+    }

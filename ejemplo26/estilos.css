@@ -1,0 +1,12 @@
+.contenedor{
+    display:flex;
+    text-align: center;
+    border: thin solid red;
+}
+.elemento{
+    border: thin solid green;
+    flex:1 1 0;
+    }
+    .elemento:nth-child() {
+    flex-grow:3;
+    }
